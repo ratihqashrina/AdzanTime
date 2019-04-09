@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="364dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/card_bg"
+        android:paddingBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="21dp"
+            android:text="Simple Title Text"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_subuh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_date"
+            android:layout_alignStart="@+id/text_date"
+            android:layout_alignLeft="@id/text_date"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:lineSpacingExtra="8dp"
+            android:text="TextView"
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+            android:id="@+id/text_dzuhur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_date"
+            android:layout_alignStart="@+id/text_subuh"
+            android:layout_alignLeft="@id/text_subuh"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="TextView"
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+            android:id="@+id/text_ashar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_date"
+            android:layout_alignStart="@+id/text_subuh"
+            android:layout_alignLeft="@id/text_subuh"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="TextView"
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+            android:id="@+id/text_maghrib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_date"
+            android:layout_alignStart="@+id/text_subuh"
+            android:layout_alignLeft="@id/text_subuh"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="TextView"
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+            android:id="@+id/text_isya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_date"
+            android:layout_alignStart="@+id/text_subuh"
+            android:layout_alignLeft="@id/text_subuh"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="TextView"
+            android:textColor="@color/content_text_color" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
